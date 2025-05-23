@@ -2,7 +2,7 @@
 
 A Flutter project to allow ZSA owners to set the LED colors to all keys on their keyboards in real time.
 
-![Screenshot](/docs/screenshot.png | width=200)
+![Screenshot](/docs/screenshot.png)
 
 ## DISCLAIMER
 

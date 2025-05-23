@@ -1,16 +1,13 @@
 # led_color_picker
 
-A new Flutter project.
+A Flutter project to allow ZSA owners to set the LED colors to all keys on their keyboards in real time.
 
-## Getting Started
+![Screenshot](/docs/screenshot.png)
 
-This project is a starting point for a Flutter application.
+## DISCLAIMER
 
-A few resources to get you started if this is your first Flutter project:
+I made this app for me.  I'm sharing it so it may help others, but offer no support or expectation for updates.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Running
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It _should_ run on Windows, macOS, and Linux.  I'm currently providing the source code only because I do not want to deal with proper binary compilation and OS permissions.

@@ -14,6 +14,6 @@ I made this app for me.  I'm sharing it so it may help others, but offer no supp
 
 ## Running
 
-It _should_ run on Windows, macOS, and Linux.  I'm currently providing the source code only because I do not want to deal with proper binary compilation and OS permissions.
+It _should_ run on Windows, macOS, and Linux.  I'm currently providing the source code only because I do not want to deal with proper binary compilation and OS permissions.  Or bugs, feature requests, or anything.
 
 It has not been properly tested and contains bugs and rough edges.

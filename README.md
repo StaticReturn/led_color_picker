@@ -1,6 +1,6 @@
 # led_color_picker
 
-A Flutter project to allow ZSA owners to set the LED colors to all keys on their keyboards in real time.
+A Flutter project to allow ZSA owners to set the LED colors to all keys on their keyboards in real time.  This tool is meant only to test colors and then allow you to copy values you like.  You will then have to use Oryx to assing the hex color codes to your keys.
 
 ![Screenshot](/docs/screenshot.png)
 

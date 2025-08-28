@@ -112,7 +112,7 @@ class _MyColorPickerState extends State<MyColorPicker> {
     );
   }
 
-  _onColorChange(Color newColor) async {
+  void _onColorChange(Color newColor) async {
     data.pickerColor.value = newColor;
     currentColor = _toRGBString(newColor);
 
@@ -143,7 +143,7 @@ class _MyColorPickerState extends State<MyColorPicker> {
     return Color(int.parse(buffer.toString(), radix: 16));
   }
 
-  _copyToClipboard() async {
+  void _copyToClipboard() async {
     await Clipboard.setData(ClipboardData(text: _toRGBString(data.pickerColor.value))); 
     data.scaffoldKey.currentState!.showSnackBar(
       SnackBar(
@@ -153,7 +153,7 @@ class _MyColorPickerState extends State<MyColorPicker> {
     );
   }
 
-  _copyFromClipboard() async {
+  void _copyFromClipboard() async {
     String clipboardData = "";
     
     try {

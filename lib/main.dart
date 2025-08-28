@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
 
-  _init() {
+  void _init() {
     data = GlobalData(kontroll: widget.kontroll, sharedPreferences: widget.sharedPreferences, packageInfo: widget.packageInfo);
     data.port.value = data.sharedPreferences.getString("port") ?? "50051";
     data.port.addListener(() => data.sharedPreferences.setString("port", data.port.value));

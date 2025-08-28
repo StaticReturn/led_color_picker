@@ -31,7 +31,7 @@ class GlobalData {
 
 
   bool newConnectionLock = false;
-  creatNewConnection(String port) async {
+  void creatNewConnection(String port) async {
     if (newConnectionLock)    return;
     newConnectionLock = true;
     kontroll = await Kontroll.create(port: port);
@@ -40,7 +40,7 @@ class GlobalData {
   }
 
   bool testConnectionLock = false;
-  testConnection() async {
+  void testConnection() async {
     bool everFailed = false;
 
     while (true) {      
@@ -77,7 +77,7 @@ class GlobalData {
   }
 
   bool staleMessageLock = false;
-  _checkForStaleMessages() {
+  void _checkForStaleMessages() {
     if (staleMessageLock)   return;
     staleMessageLock = true;
 
@@ -101,7 +101,7 @@ class GlobalData {
   }
 
   bool getKeyboardsLock = false;
-  getKeyboards() async {
+  void getKeyboards() async {
     if (getKeyboardsLock)   return;
     getKeyboardsLock = true;
 
